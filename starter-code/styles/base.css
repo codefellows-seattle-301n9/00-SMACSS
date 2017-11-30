@@ -15,10 +15,6 @@ body {
   text-decoration: none;
 }
 
-#logo img {
-  float: left;
-}
-
 #logo h1 {
   padding-left: 50px;
   font-family: 'Yellowtail', cursive;
@@ -48,7 +44,7 @@ nav ul {
   margin-bottom: 33px;
 }
 
-.date {
+.date, aside img, #logo img {
   float: left;
 }
 
@@ -62,13 +58,6 @@ nav ul {
   margin-right: 3px;
 }
 
-input {
-  font-family: 'Patrick Hand', cursive;
-}
-
-aside img {
-  float: left;
-}
 
 aside h3 {
   padding-left: 100px;
@@ -82,7 +71,6 @@ aside p {
   width: 65%;
   margin: 0;
   text-indent: 0;
-
 }
 
 aside button {

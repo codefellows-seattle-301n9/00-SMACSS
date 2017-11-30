@@ -24,6 +24,10 @@ nav li {
     line-height: 31px;
 }
 
+input {
+    font-family: 'Patrick Hand', cursive;
+}
+
 hr {
     clear: both;
     border: 0;

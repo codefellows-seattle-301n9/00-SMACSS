@@ -1,14 +1,20 @@
-  nav, article, aside, footer, section {
+ nav, article, aside, footer, section {
     margin: 0 auto;
     width: 900px;
+    border: 1px solid red;
   }
   
+  #nav {
+      display: inline-flex;
+      width: 900px;
+  }
+
   nav {
     margin-top: 25px;
   }  
   
   #logo {
-    float: left;
+    /* float: left; */
     padding-bottom: 25px;
     color: black;
     text-decoration: none;
@@ -16,6 +22,7 @@
   
   #logo h1 {
     padding-left: 50px;
+    margin-bottom: 0px;
     font-family: 'Yellowtail', cursive;
     font-size: 2.4em;
   }
@@ -23,6 +30,7 @@
   #slogan {
     width: 250px;
     padding-left: 55px;
+    margin-top: 0px;
     color: #a3a4a2;
     font-family: 'Abel', sans-serif;
     font-size: .65em;
@@ -36,7 +44,7 @@
     background-image: url('img/hr-img.gif');
   }
   
-  h2 {
+  #recipeTitle {
     margin-top: 50px;
     font-family: 'Oswald', sans-serif;
     font-size: 2.5em;

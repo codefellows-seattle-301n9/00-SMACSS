@@ -4,6 +4,7 @@
 
   nav ul {
     float: right;
+    margin-left: 380px;
   }
   
   nav li {
@@ -47,7 +48,7 @@
     letter-spacing: .1em;
     font-family: 'Patrick Hand', cursive;
     color: #666a42;
-    background-image: url("img/list-bg.png");
+    background-image: url('img/list-bg.png');
     height: 260px;
     padding: 37px 0 0 60px;
     margin: 40px 0;
